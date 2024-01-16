@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Datavis</title>
+</head>
+<body>
+    
+
+    <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20%3Fmus%C3%A9e%20%3Fdate_de_fondation_ou_de_cr%C3%A9ation%20%3Fnombre_de_visiteurs_par_an%20%3Fnom_dans_la_langue_maternelle_de_la_personne%20%3Fnom_dans_la_langue_d_origine%20%3Fpays%20%3FpaysLabel%20WHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%20%20%3Fmus%C3%A9e%20wdt%3AP31%20wd%3AQ33506%3B%0A%20%20%20%20wdt%3AP571%20%3Fdate_de_fondation_ou_de_cr%C3%A9ation%3B%0A%20%20%20%20wdt%3AP1174%20%3Fnombre_de_visiteurs_par_an%3B%0A%20%20%20%20wdt%3AP1705%20%3Fnom_dans_la_langue_d_origine.%0A%20%20OPTIONAL%20%7B%20%3Fmus%C3%A9e%20wdt%3AP17%20%3Fpays.%20%7D%0A%7D%0ALIMIT%20500" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+    <img src="./viz.svg"/>
+</body>    
+</html>
